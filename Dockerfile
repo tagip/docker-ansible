@@ -2,6 +2,6 @@ FROM alpine
 
 RUN apk add --update --no-cache \
 	ansible \
-	openssl \ 
+	openssh-client \
   	ca-certificates
 
